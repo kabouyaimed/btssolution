@@ -1,0 +1,20 @@
+.engeneerlist{
+    width: 80%;
+    display: inline-block;
+    margin-top: 7px;
+    justify-content:left;
+}
+.featuredTitle{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.featuredMaps{
+    width: 1000px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: block;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}

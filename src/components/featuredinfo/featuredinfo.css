@@ -1,0 +1,228 @@
+.featuredsub{
+    color: green;
+}
+.featured{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.featured2{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.featureditem{
+    flex: 1;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 4px 3px 15px -1px rgba(0,0,0,0.75); 
+box-shadow: 4px 3px 15px -1px rgba(0,0,0,0.75);
+}
+
+.featureditemtwo{
+    flex: 2;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 4px 3px 15px -1px rgba(0,0,0,0.75); 
+box-shadow: 4px 3px 15px -1px rgba(0,0,0,0.75);
+}
+.featureditem1{
+    flex: 1;
+    max-height: 100px;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 4px 3px 15px -1px rgba(0,0,0,0.75); 
+box-shadow: 4px 3px 15px -1px rgba(0,0,0,0.75);
+}
+.featureditem2{
+    flex: 1;
+    max-height: 100px;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 4px 3px 15px -1px rgba(0,0,0,0.75); 
+box-shadow: 4px 3px 15px -1px rgba(0,0,0,0.75);
+}
+.featureditem3{
+    flex: 2;
+    margin: 0px 20px;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 4px 3px 15px -1px rgba(0,0,0,0.75); 
+box-shadow: 4px 3px 15px -1px rgba(0,0,0,0.75);
+}
+.featuredTitle{
+    font-size: 20px;
+
+}
+.featuredTempcontainer{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.featuredMapcontainer{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.featuredTermometer{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.featuredMap{
+    width: 30vw;
+    border-radius: 5px;
+    display: block;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.numbers{
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 100%;
+    float: left;
+}
+.numbers li{
+    list-style: none;
+    height: 90px;
+    position: relative;
+   
+}
+
+.numbers span{
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+   
+}
+.bars{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    background: rgb(255, 255, 255);
+    margin-left: 40px;
+    padding: 0;
+    display:flex;
+    width: 110px;
+    height: 200px;
+    border-radius: 5px;
+    
+}
+.bars li{
+    height: 180px;
+    display: table-cell;
+    width: 50px;
+    position: relative;
+}
+
+.bars span{
+    width: 110px;
+    position: absolute;
+    bottom: -40px;
+    color: black;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;  
+}
+.bars .bar{
+    display: block;
+    background: blue;
+    width: 80px;
+    height: 70%;
+    border-radius: 10px;
+    position:absolute;
+    bottom: -20px;
+    box-shadow: 0 0 10px 0 rgb(253, 16, 222);
+    
+}
+.featuredfuelcontainer{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.bartwo{
+    background: #ff413d;
+    width: 100%;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    transition: width 2s, background .2s;
+    transform: translate3d(0,0,0);
+    clear: both;
+    border-radius: 7px;
+    box-shadow: 0 0 10px 0 #555;
+}
+.bartwo.b{
+    width: 85%;
+}
+.bartwo.e{
+    width: 73%;
+}
+.bartwo.f{
+    width: 50%;
+}
+
+.bartwo:nth-last-of-type(odd){
+    background: #ff6461;
+
+}
+.bartwo .label{
+    font-size: .753em;
+    padding: 1em;
+    background-color: #212121;
+    width: 7em;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+}
+.bartwo .labelsecond{
+    font-size: .753em;
+    padding: 1em;
+    background-color: #333;
+    width: 7em;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+}
+.count{
+    position: absolute;
+    right: .25em;
+    top: .75em;
+    padding: .15em;
+    font-size: .75em;
+    font-weight: bold;
+}
+.temperature{
+width: 100%;
+height: 100%;
+font-size: 30px;
+font-weight: bolder;
+color: red;
+
+margin-bottom: 10px;
+}
+.temperature.good{
+    color: green;
+}

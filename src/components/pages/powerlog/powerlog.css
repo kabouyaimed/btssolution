@@ -1,0 +1,15 @@
+.tempchart{
+    width: 80%;
+    display:inline-block;
+    margin-top: 7px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.charttitle{
+    margin-bottom: 40px;
+}
+.dates{
+    margin-top: 15px;
+}
+

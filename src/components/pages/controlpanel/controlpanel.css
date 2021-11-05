@@ -1,0 +1,35 @@
+.controlpanel{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.controlpanelgrid{
+    width: 100%;
+    display: flex;
+    margin-top: 7px;
+    justify-content: space-between;
+}
+.panelitem{
+    flex: 1;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 4px 3px 15px -1px rgba(0,0,0,0.75); 
+box-shadow: 4px 3px 15px -1px rgba(0,0,0,0.75);
+}
+.panelTitle{
+    font-size: 20px;
+}
+.panelcontainer{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}

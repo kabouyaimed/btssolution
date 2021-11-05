@@ -1,0 +1,6 @@
+.engeneerlist{
+    width: 80%;
+    display: flex;
+    margin-top: 7px;
+    justify-content: space-between;
+}
