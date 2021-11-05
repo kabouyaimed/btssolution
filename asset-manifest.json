@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/btssolution/static/css/main.cf7f64a2.chunk.css",
+    "main.js": "/btssolution/static/js/main.4bb9dbcc.chunk.js",
+    "main.js.map": "/btssolution/static/js/main.4bb9dbcc.chunk.js.map",
+    "runtime-main.js": "/btssolution/static/js/runtime-main.6e7dda2b.js",
+    "runtime-main.js.map": "/btssolution/static/js/runtime-main.6e7dda2b.js.map",
+    "static/js/2.63ae8224.chunk.js": "/btssolution/static/js/2.63ae8224.chunk.js",
+    "static/js/2.63ae8224.chunk.js.map": "/btssolution/static/js/2.63ae8224.chunk.js.map",
+    "index.html": "/btssolution/index.html",
+    "static/css/main.cf7f64a2.chunk.css.map": "/btssolution/static/css/main.cf7f64a2.chunk.css.map",
+    "static/js/2.63ae8224.chunk.js.LICENSE.txt": "/btssolution/static/js/2.63ae8224.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e7dda2b.js",
+    "static/js/2.63ae8224.chunk.js",
+    "static/css/main.cf7f64a2.chunk.css",
+    "static/js/main.4bb9dbcc.chunk.js"
+  ]
+}
